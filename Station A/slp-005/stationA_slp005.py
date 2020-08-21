@@ -23,7 +23,7 @@ def run(protocol):
     # load labware
     source_racks = [
         protocol.load_labware(RACK_DEF, slot, 'source tuberack ' + str(i+1))
-        for i, slot in enumerate(['2', '5', '8', '11'])
+        for i, slot in enumerate(['1', '4', '7', '10'])
     ]
     dest_plate = protocol.load_labware(
         'nest_96_wellplate_2ml_deep', '5', '96-deepwell sample plate')

@@ -48,7 +48,7 @@ def run(ctx):
     res1 = ctx.load_labware(
         'nest_1_reservoir_195ml', '2', 'ethanol reservoir')
     magbuff = [well for well in res2.wells()[:3] for _ in range(4)][:num_cols]
-    bindbuff = [well for well in res2.wells()[3:7] for _ in range(3)][:num_cols]
+    bindbuff = [well for well in res2.wells()[4:8] for _ in range(3)][:num_cols]
     # wb1 = [well for well in res1.wells()[4:8] for _ in range(3)][:num_cols]
     # wb2 = [well for well in res1.wells()[8:] for _ in range(3)][:num_cols]
     etoh = res1['A1']
