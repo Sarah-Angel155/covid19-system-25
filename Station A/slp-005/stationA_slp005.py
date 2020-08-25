@@ -11,11 +11,11 @@ metadata = {
 }
 
 NUM_SAMPLES = 8
-SAMPLE_VOLUME = 300
+SAMPLE_VOLUME = 200
 TIP_TRACK = False
 CTRL_SAMPLES = True
 RACK_DEF = 'opentrons_24_tuberack_eppendorf_2ml_safelock_snapcap'
-PK_ADD = False
+PK_ADD = True
 
 
 def run(protocol):
